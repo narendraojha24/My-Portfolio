@@ -2,11 +2,15 @@
 
 Welcome to my personal portfolio repository! This project showcases my skills, projects, and experiences as a frontend developer.
 
-# 🔗 Live Demo
+---
+
+## 🔗 Live Demo
 
 Check out my portfolio here:  https://lnkd.in/d-HdgbFy
 
-# 🚀 Features
+---
+
+## 🚀 Features
 
 Dynamic and responsive design for all screen sizes
 
@@ -16,13 +20,17 @@ Skillset and tools I specialize in, including React, JavaScript, and UX design
 
 Contact form for direct communication
 
-# 🛠️ Technologies Used
+---
+
+## 🛠️ Technologies Used
 
 Frontend: JavaScript, HTML, CSS
 Styling: CSS Flexbox, Grid, and SCSS
 Design: Figma for prototyping and UX design
 
-# 📸 Screenshots 
+---
+
+## 📸 Screenshots 
 
 ![Screenshot 2024-12-21 210058](https://github.com/user-attachments/assets/9e4f2a17-046d-4d56-a583-dde69a485645)
 
@@ -42,7 +50,7 @@ Design: Figma for prototyping and UX design
 ![Screenshot 2024-12-22 121250](https://github.com/user-attachments/assets/e1d0064d-f0c4-4583-9a45-1052c04dfa02)
  
 
-# 🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the portfolio.
 
 📬 Contact
