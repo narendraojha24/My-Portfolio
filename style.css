@@ -195,14 +195,14 @@ section{
   align-items: baseline;
   margin-left: 20px;
 }
-.skills ul li span{
+.skills ul li {
   display: flex;
   align-items: center;
   gap: 0.5em;
-  font-size: 1.2em;
+  font-size: 3em;
   transition: 0.3 ease-in-out;
 }
-.skills ul li span:hover{
+.skills ul li:hover{
   transform: translateX(10px);
 }
 .skills ul li i{
@@ -564,6 +564,7 @@ footer{
 }
 .modal-content p {
   text-align: center;
+  color: rgb(231, 44, 175);
 }
 
 .modal-content h2{
