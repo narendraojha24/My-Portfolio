@@ -110,4 +110,26 @@ projectModal2.addEventListener("click", (e) => {
  });
 
 
+ 
 
+
+ function createBubble() {
+  const bubble = document.createElement("div");
+  bubble.classList.add("bubble");
+
+  // Randomize size and position
+  const size = Math.random() * 50 + 10; // 10px to 60px
+  bubble.style.width = `${size}px`;
+  bubble.style.height = `${size}px`;
+  bubble.style.left = `${Math.random() * window.innerWidth}px`;
+
+  // Append to body
+  document.body.appendChild(bubble);
+
+  // Remove after animation
+  setTimeout(() => {
+    bubble.remove();
+  }, 10000); // Matches animation duration
+}
+
+setInterval(createBubble, 200); // Add bubbles every 200ms
