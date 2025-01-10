@@ -6,7 +6,7 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 
 ## 🔗 Live Demo
 
-Check out my portfolio here:  https://lnkd.in/d-HdgbFy
+ Check out my portfolio here:  https://lnkd.in/d-HdgbFy
 
 ---
 
