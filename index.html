@@ -24,7 +24,7 @@
           <a href="#about">About</a>
           <a href="#Servic">Services</a>
           <a href="#Contact">Contact</a>
-          <a href="#Service">Project</a>
+          <a href="#Service">Projects</a>
       </ul>
       <i class='bx bx-menu-alt-left' id="menu"></i>
 
@@ -270,28 +270,25 @@ This feature is designed to provide a seamless experience, making it easy to man
   </section>
 
 
- <section id="Contact">
-    <h1 class="header" data-aos="zoom-in"><span>Contact</span></h1>
-    <form action="#" data-aos="flip-left">
+  <section id="Contact">
+    <h1 class="header">Contact</h1>
+    <form id="contactForm">
       <div class="input-box">
         <span>Full Name</span>
-        <input type="text" placeholder="Enter your Full Name">
+        <input type="text" id="name" placeholder="Enter your Full Name" required />
       </div>
-
       <div class="input-box">
         <span>Your Email</span>
-        <input type="text" placeholder="Enter your Email">
+        <input type="email" id="email" placeholder="Enter your Email" required />
       </div>
-
       <div class="input-box">
         <span>Your Message</span>
-        <input type="text" placeholder="Enter your Message">
+        <textarea id="message" placeholder="Enter your Message" required></textarea>
       </div>
-
-      <div class="btn">Submit</div>
-
+      <button type="submit" class="btn">Submit</button>
     </form>
   </section>
+  
 
 
  

@@ -133,3 +133,34 @@ projectModal2.addEventListener("click", (e) => {
 }
 
 setInterval(createBubble, 200); // Add bubbles every 200ms
+
+
+
+
+
+
+document.getElementById("contactForm").addEventListener("submit", async function (event) {
+  event.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const message = document.getElementById("message").value;
+
+  try {
+    const response = await fetch("http://localhost:5000/send-email", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, email, message }),
+    });
+
+    if (response.ok) {
+      alert("Message sent successfully!");
+      document.getElementById("contactForm").reset();
+    } else {
+      alert("Failed to send the message. Please try again.");
+    }
+  } catch (error) {
+    console.error("Error:", error);
+    alert("An error occurred. Please try again.");
+  }
+});

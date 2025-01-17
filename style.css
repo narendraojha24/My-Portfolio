@@ -120,7 +120,7 @@ nav ul a:hover{
   color: rgb(0, 0, 0);
 }
 span{
-  background: linear-gradient(to right,rgb(137, 52, 167),rgb(21, 179, 211));
+  background: linear-gradient(to right,rgb(188, 8, 192),rgb(29, 95, 152));
   background-clip: text;
   color: transparent;
   font-weight: 700;
@@ -185,7 +185,7 @@ section{
 }
 
 #about{
-  background-color: var(--second-background);
+  background-color:var(--second-background);
   display: flex;
   align-items: center;
   justify-content: center;
