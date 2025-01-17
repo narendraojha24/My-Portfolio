@@ -313,6 +313,14 @@ form input{
 form input:focus{
   background: rgb(229, 229 ,299);
 }
+#message{
+  width: 280px;
+  height: 50px;
+  border-radius: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  padding-left: 20px;
+}
 
 footer{
   display: flex;
